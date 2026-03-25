@@ -1,18 +1,14 @@
-# VSI to SVS Conversion
+# VSI to TIF Conversion
 
-This repository converts `.vsi` WSIs to `.svs` format using the `large-image` library.
+This repository converts `.vsi` WSIs to `.tif` format for running DSA plugins.
 
 ---
 
-## Environment Setup
-
-```bash
-bash setup_env.sh # Create and Activate Environment
-```
----
 
 ## Usage
 
 ```bash
-python vsi_to_svs.py /path/to/.vsi /path/to/.svs
+bash /path/to/batch_vsi_to_tif.sh \
+  /path/to/folder/with/vsi_files \
+  /path/to/output_folder
 ```
