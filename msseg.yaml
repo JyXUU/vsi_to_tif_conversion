@@ -1,0 +1,71 @@
+name: msseg
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10.19
+  - pip
+  - pytorch=2.3.1
+  - torchvision=0.18.1
+  - pytorch-cuda=11.8
+
+  - numpy
+  - scipy=1.15.2
+  - pandas=2.3.3
+  - matplotlib=3.10.7
+  - seaborn=0.13.2
+  - scikit-image=0.25.2
+  - scikit-learn
+  - statsmodels=0.14.5
+  - tqdm=4.67.1
+  - tabulate=0.9.0
+
+  - opencv=4.12.0
+  - py-opencv=4.12.0
+  - pillow=12.0.0
+  - tifffile=2025.5.10
+  - openslide=4.0.0
+  - openslide-python=1.4.3
+  - tiffslide=2.5.1
+  - imageio=2.37.0
+  - imagecodecs=2025.3.30
+  - simpleitk=2.5.2
+  - pycocotools=2.0.10
+
+  - pyyaml=6.0.3
+  - omegaconf=2.3.0
+  - requests=2.32.5
+  - lxml=6.0.2
+  - jinja2=3.1.6
+  - networkx=3.4.2
+  - joblib
+  - fvcore=0.1.5.post20221221
+  - iopath=0.1.10
+  - yacs=0.1.8
+
+  - tensorboard=2.20.0
+
+  - graphviz=13.1.2
+  - libvips=8.17.2
+  - openjdk=11.0.27
+
+  - pip:
+      - albucore==0.0.33
+      - albumentations==1.4.8
+      - annotated-types==0.7.0
+      - joblib==1.5.2
+      - lightning-utilities==0.15.2
+      - monai==1.4.0
+      - numpy==1.26.4
+      - pydantic==2.12.3
+      - pydantic-core==2.41.4
+      - pyvips==3.0.0
+      - scikit-learn==1.7.2
+      - simsimd==6.5.3
+      - stringzilla==4.2.1
+      - threadpoolctl==3.6.0
+      - torchmetrics==1.8.2
+      - typing-inspection==0.4.2
