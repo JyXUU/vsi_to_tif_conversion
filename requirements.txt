@@ -1,6 +1,0 @@
-large-image
-large-image-source-bioformats
-tifffile
-tqdm
-numpy
-python-javabridge
